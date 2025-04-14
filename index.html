@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>For My Beautiful Wifey ❤️</h1>
+            <div class="typewriter">
+                <p>Every moment with you is a beautiful memory I cherish...</p>
+            </div>
+        </header>
+
+        <div class="menu-container">
+            <button class="menu-button" data-section="letter">
+                <i class="fas fa-envelope"></i> Special Letter
+            </button>
+            <button class="menu-button" data-section="gallery">
+                <i class="fas fa-images"></i> Our Moments
+            </button>
+            <button class="menu-button" data-section="story">
+                <i class="fas fa-book"></i> Our Story
+            </button>
+            <button class="menu-button" data-section="open-when">
+                <i class="fas fa-gift"></i> Open When...
+            </button>
+            <button class="menu-button" data-section="secret-message">
+                <i class="fas fa-lock"></i> Secret Message
+            </button>
+            <button class="menu-button" data-section="memory-gallery">
+                <i class="fas fa-heart"></i> Special Memories
+            </button>
+            <button class="menu-button" data-section="reasons">
+                <i class="fas fa-star"></i> Reasons I Love You
+            </button>
+            <button class="menu-button" data-section="quiz">
+                <i class="fas fa-question-circle"></i> How Well Do You Know Me?
+            </button>
+            <button class="menu-button" data-section="love-notes">
+                <i class="fas fa-sticky-note"></i> Love Notes
+            </button>
+            <button class="menu-button" data-section="countdown">
+                <i class="fas fa-clock"></i> Countdown
+            </button>
+            <button class="menu-button" data-section="compliment-generator">
+                <i class="fas fa-heart"></i> Daily Love
+            </button>
+            <button class="menu-button" data-section="heartbeat-section">
+                <i class="fas fa-heartbeat"></i> Feel My Heart
+            </button>
+            <button class="menu-button" data-section="playlist">
+                <i class="fas fa-music"></i> Our Playlist
+            </button>
+            <button class="menu-button" data-section="days-calendar">
+                <i class="fas fa-calendar"></i> 365 Days of You
+            </button>
+        </div>
+
+        <!-- All sections will be hidden by default and shown when their button is clicked -->
+        <div id="letter" class="section-content">
+            <!-- Envelope Section -->
+            <section class="section scroll-reveal">
+                <h2>A Special Letter for You</h2>
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="letter-content">
+                            <p style="font-weight: bold; margin-bottom: 10px;">My Wifey,</p>
+                            <p style="margin-bottom: 15px;">I LOVE YOU ❤️ </p>
+                            <p style="margin-bottom: 15px;">You make my world complete.</p>
+                            <p style="text-align: right; margin-top: 10px;">Stay Safe ❤️</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="gallery" class="section-content">
+            <!-- Photo Gallery Section -->
+            <section id="gallery" class="section scroll-reveal">
+                <h2>Our Special Moments</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="1.jpeg" alt="Our moment">
+                        <p class="caption">The day we first met ❤️</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="2.jpeg" alt="Our moment">
+                        <p class="caption">Our first date 💕</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="3.jpeg" alt="Our moment">
+                        <p class="caption">Our adventures together 🌟</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="story" class="section-content">
+            <!-- Our Story Section -->
+            <section id="our-story" class="section scroll-reveal">
+                <h2>Our Love Story 💑</h2>
+                <div class="story-timeline">
+                    <div class="story-item">
+                        <div class="story-emoji">👋</div>
+                        <h3>First Meeting</h3>
+                        <p>The day our eyes met, my heart skipped a beat...</p>
+                    </div>
+                    <div class="story-item">
+                        <div class="story-emoji">☕</div>
+                        <h3>First Date</h3>
+                        <p>That coffee date that lasted for hours...</p>
+                    </div>
+                    <div class="story-item">
+                        <div class="story-emoji">💝</div>
+                        <h3>Falling in Love</h3>
+                        <p>Every moment with you made me fall deeper...</p>
+                    </div>
+                    <div class="story-item">
+                        <div class="story-emoji">✨</div>
+                        <h3>Our Journey</h3>
+                        <p>And this is just the beginning of our story...</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="open-when" class="section-content">
+            <!-- Open When Messages -->
+            <section id="open-when" class="section scroll-reveal">
+                <h2>Open When... 💌</h2>
+                <div class="open-when-container">
+                    <div class="message-card" data-message="You're feeling sad">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <h3>Open When You're Sad 🥺</h3>
+                            </div>
+                            <div class="card-back">
+                                <p>Remember that you're the strongest person I know, and I'm always here for you. Your smile lights up my world! ❤️</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message-card" data-message="You miss me">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <h3>Open When You Miss Me 💕</h3>
+                            </div>
+                            <div class="card-back">
+                                <p>I'm thinking of you right now, and my heart is full of love for you. You're always in my thoughts! 💝</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message-card" data-message="You need a hug">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <h3>Open When You Need a Hug 🤗</h3>
+                            </div>
+                            <div class="card-back">
+                                <p>Sending you the biggest virtual hug! Remember how special you are to me. You're amazing! ✨</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="secret-message" class="section-content">
+            <!-- Secret Message Puzzle -->
+            <section id="secret-message" class="section scroll-reveal">
+                <h2>Unlock Our Secret Message 🔒</h2>
+                <div class="puzzle-container">
+                    <div class="puzzle-pieces">
+                        <div class="puzzle-piece" data-order="1">❤️</div>
+                        <div class="puzzle-piece" data-order="2">You</div>
+                        <div class="puzzle-piece" data-order="3">Are</div>
+                        <div class="puzzle-piece" data-order="4">My</div>
+                        <div class="puzzle-piece" data-order="5">Everything</div>
+                    </div>
+                    <div class="secret-message-reveal"></div>
+                </div>
+            </section>
+        </div>
+
+        <div id="memory-gallery" class="section-content">
+            <!-- 3D Card Flip Gallery -->
+            <section id="memory-gallery" class="section scroll-reveal">
+                <h2>Our Special Memories 💖</h2>
+                <div class="memory-container">
+                    <div class="memory-card">
+                        <div class="memory-card-inner">
+                            <div class="memory-card-front">
+                                <img src="a.jpeg" alt="Memory">
+                            </div>
+                            <div class="memory-card-back">
+                                <p>"The moment I knew you were special..."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="memory-card">
+                        <div class="memory-card-inner">
+                            <div class="memory-card-front">
+                                <img src="b.jpeg" alt="Memory">
+                            </div>
+                            <div class="memory-card-back">
+                                <p>"Your smile makes my day brighter!"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="memory-card">
+                        <div class="memory-card-inner">
+                            <div class="memory-card-front">
+                                <img src="c.jpeg" alt="Memory">
+                            </div>
+                            <div class="memory-card-back">
+                                <p>"Every adventure is better with you!"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="reasons" class="section-content">
+            <!-- Reasons Why I Love You Section -->
+            <section id="reasons" class="section">
+                <h2>Reasons Why I Love You</h2>
+                <div class="reasons-container">
+                    <div class="reason-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-back">
+                                <p>Your beautiful smile that brightens my day</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reason-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-back">
+                                <p>Your kind and caring heart</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reason-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="card-back">
+                                <p>Your amazing sense of humor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="quiz" class="section-content">
+            <!-- Quiz Section -->
+            <section id="quiz" class="section">
+                <h2>How Well Do You Know Me?</h2>
+                <div class="quiz-container">
+                    <div id="quiz-questions">
+                        <div class="question">
+                            <p>What's my favorite color?</p>
+                            <div class="options">
+                                <button class="option">Blue</button>
+                                <button class="option">Red</button>
+                                <button class="option">Green</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="quiz-results"></div>
+                </div>
+            </section>
+        </div>
+
+        <div id="love-notes" class="section-content">
+            <!-- Love Notes Section -->
+            <section id="love-notes" class="section">
+                <h2>Love Notes</h2>
+                <div class="notes-container">
+                    <div class="note">You make my heart smile ❤️</div>
+                    <div class="note">Every moment with you is special 💕</div>
+                    <div class="note">You're my favorite person 🌟</div>
+                </div>
+            </section>
+        </div>
+
+        <div id="countdown" class="section-content">
+            <!-- Countdown Timer -->
+            <section id="countdown" class="section">
+                <h2>Countdown to Our Next Special Day</h2>
+                <div class="countdown-container">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <p>Days</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <p>Hours</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="compliment-generator" class="section-content">
+            <!-- AI Compliment Generator -->
+            <section id="compliment-generator" class="section scroll-reveal">
+                <h2>Your Daily Dose of Love 💝</h2>
+                <div class="compliment-container">
+                    <div class="compliment-box">
+                        <p id="compliment-text">Click the button to receive a sweet message...</p>
+                        <div class="hearts-decoration">
+                            <span>✨</span><span>💖</span><span>✨</span>
+                        </div>
+                    </div>
+                    <button id="generate-compliment" class="compliment-button">
+                        <i class="fas fa-heart"></i> I Need a Sweet Message
+                    </button>
+                </div>
+            </section>
+        </div>
+
+        <div id="heartbeat-section" class="section-content">
+            <!-- Heartbeat Button Section -->
+            <section id="heartbeat-section" class="section scroll-reveal">
+                <h2>Feel My Heart 💓</h2>
+                <div class="heartbeat-container">
+                    <button id="heartbeat-btn" class="heartbeat-button">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <p id="heartbeat-message" class="heartbeat-message">Hover over the heart to feel my heartbeat...</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="playlist" class="section-content">
+            <!-- Playlist Section -->
+            <section id="playlist" class="section">
+                <h2>Our Special Playlist</h2>
+                <div class="playlist-container">
+                    <iframe style="border-radius:12px" 
+                            src="https://open.spotify.com/embed/playlist/37i9dQZF1DX7gIoKXt0gmx?utm_source=generator" 
+                            width="100%" 
+                            height="452" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                    </iframe>
+                </div>
+            </section>
+        </div>
+
+        <div id="days-calendar" class="section-content">
+            <!-- 365 Days of You Section -->
+            <section class="section">
+                <h2>365 Days of You 💝</h2>
+                <div class="days-container">
+                    <div class="days-grid">
+                        <!-- Days will be generated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Hidden Surprise Messages -->
+        <div class="scroll-reveal" style="text-align: center; margin: 50px 0;">
+            <p class="surprise-message">You're the most beautiful person I know 💖</p>
+        </div>
+
+        <div class="scroll-reveal" style="text-align: center; margin: 50px 0;">
+            <p class="surprise-message">Every day with you is a gift 🌟</p>
+        </div>
+
+        <!-- Mood Change Button -->
+        <button class="mood-button" onclick="toggleMood()">
+            <i class="fas fa-moon"></i> Change Mood
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
